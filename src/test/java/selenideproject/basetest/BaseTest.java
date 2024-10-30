@@ -12,6 +12,7 @@ public class BaseTest {
     protected LoginPage loginPage;
     protected HomePage homePage;
     
+    
     @BeforeEach
     public void setUp(){
         Configuration.baseUrl = "https://idemo.bspb.ru";
